@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awsome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TASIN MUHAIMINUL</title>
+  </head>
+  <body class="bg-gray-600">
+    <!-- Header Start -->
+    <header class="bg-black shadow-lg w-full fixed">
+      <nav
+        class="md:mx-[56px] mx-[25px] py-2 flex items-center justify-between"
+      >
+        <!-- logo -->
+        <div>
+          <a href="index.html">
+            <p class="text-green-500 text-[25px]">TSN</p>
+          </a>
+        </div>
+        <!-- list -->
+        <div>
+          <ul
+            class="md:flex gap-10 text-white font-semibold cursor-pointer hidden"
+          >
+            <li class="hover:text-green-500 transition text-green-500">Home</li>
+            <li id="btnAbout" class="hover:text-green-500 transition focuse:text-green-500">About</li>
+            <li id="btnServices" class="hover:text-green-500 transition">Services</li>
+            <a href="portfolio.html"><li class="hover:text-green-500 transition">Portfolio</li></a>
+            <a href="contact.html"><li class="hover:text-green-500 transition">Contact Us</li></a>
+          </ul>
+        </div>
+        <!-- button  -->
+        <div>
+          <button
+            class="md:px-3 md:py-1 px-2 py-1 bg-green-400 hover:bg-green-600 text-white font-semibold rounded transition duration-300 shadow-sm shadow-green-300"
+          >
+            Hire me
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Start -->
+    <section>
+      <!-- Main -->
+
+      <div
+        class="md:mx-[56px] md:grid md:grid-cols-12 gap-[50px] mx-[25px]  "
+      >
+        <!-- First div -->
+        <div class="md:col-span-5 flex items-center justify-center md:py-[130px] pt-[100px]">
+          <div
+            class="overflow-hidden w-[300px] md:h-[400px] h-[200px] bg-center border-[5px] border-[#22C55E] rounded-lg"
+          >
+            <img src="img/por.jpg" alt="" />
+          </div>
+        </div>
+        <!-- Second div -->
+        <div class="md:col-span-7 d-flex pt-10 md:pt-[170px]">
+          <p class="text-green-500 md:text-[26px] text-[20px]">Hi, I'm</p>
+          <h1 class="text-green-500 md:text-[56px] text-[26px] font-semibold">
+            TASIN MUHAIMINUL
+          </h1>
+          <p class="text-green-500 md:text-[24px] text-[20px]">
+            Junior frontend Developer
+          </p>
+          <p class="md:text-[18px] text-[14px] text-white py-10">
+            You can reach out to your client 10x with a personal portfolio website or a landing page. If you are in need. Then welcome! You are going to knock in the right door.
+            I'm here to provide you hardly coded solution.
+          </p>
+          <div class="">
+            <a href="https://www.linkedin.com/in/tasinmuhaiminul1/" target="_blank"><button
+              class="bg-green-500 text-white md:px-3 md:py-2 px-2 py-1 font-semibold rounded-lg me-3 hover:bg-green-600 transition duration-300"
+            >
+              Hire Me
+            </button></a>
+            <a href="contact.html"><button
+              class="border border-[#22C55E] text-white md:px-3 md:py-2 px-2 py-1 font-semibold rounded-lg me-3 hover:bg-green-600 transition duration-300"
+            >
+              Contact Me
+            </button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About start -->
+    <section id="about">
+      <!-- Main div -->
+      <div class="md:mx-[56px] mx-[25px] flex flex-col">
+        <!-- first div -->
+        <div class="text-white">
+          <h2 class="md:text-[36px] text-[25px] text-[#22C55E] font-semibold pb-5">
+            About me
+          </h2>
+          <h3>Name: <span>Shaikh Muhaiminul Islam Tasin</span></h3>
+          <h3>Email: <span>tasinmuhaiminul@gmail.com</span></h3>
+          <h3>Whatsapp: <span>01794382332</span></h3>
+          <h3>Phone: <span>01794382332</span></h3>
+          <!-- Social links -->
+          <div class="pt-2">
+            <ul class="flex gap-5">
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="hidden">
+                <a href=""><i class="fa-brands fa-square-behance"></i></a>
+              </li>
+              <li class="hidden">
+                <a href=""><i class="fa-brands fa-facebook hidden"></i></a>
+              </li>
+              <li class="hidden">
+                <a href=""><i class="fa-brands fa-facebook hidden"></i></a>
+              </li>
+            </ul>
+          </div>
+          <p class="text-white md:text-[18px] pt-10">
+            I am a passionate web developer with expertise in HTML, CSS,
+            Bootstrap, Tailwind CSS, SASS, JavaScript, React, and Next.js. With
+            a strong foundation in front-end technologies and a keen eye for
+            design, I create dynamic, responsive, and user-friendly web
+            applications. My experience spans from crafting seamless user
+            interfaces to optimizing web performance, always aiming to deliver
+            exceptional digital experiences, And I'm very seriouse about
+            customer satisfaction
+          </p>
+        </div>
+
+        <!-- Second div -->
+        
+        <div class="">
+          <div
+            class="flex flex-col justify-center md:gap-[50px] gap-2 md:mx-[50px] mx-3 py-10"
+          >
+            <h2 class="md:text-[36px] text-[25px] text-[#22C55E] font-semibold pb-5">
+              Expertise
+            </h2>
+            <!-- Contents -->
+            <div class="flex justify-around">
+              <!-- Content -->
+              <div
+                class="bg-green-500 md:w-[200px] w-[80px] md:h-[150px] h-[80px] rounded-lg flex flex-col items-center justify-center"
+              >
+                <i
+                  class="fa-brands fa-html5 md:text-[50px] text-[30px] text-white"
+                ></i>
+                <p class="text-white md:text-[16px] text-[12px] font-semibold">
+                  HTML 5
+                </p>
+              </div>
+              <!-- Content -->
+              <div
+                class="bg-green-500 md:w-[200px] w-[80px] md:h-[150px] h-[80px] rounded-lg flex flex-col items-center justify-center"
+              >
+                <i
+                  class="fa-brands fa-css3 md:text-[50px] text-[30px] text-white"
+                ></i>
+                <p class="text-white md:text-[16px] text-[12px] font-semibold">
+                  CSS 3
+                </p>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="bg-green-500 md:w-[200px] w-[80px] md:h-[150px] h-[80px] rounded-lg flex flex-col items-center justify-center"
+              >
+                <i
+                  class="fa-brands fa-bootstrap md:text-[50px] text-[30px] text-white"
+                ></i>
+                <p class="text-white md:text-[16px] text-[12px] font-semibold">
+                  BOOTSTRAP 5
+                </p>
+              </div>
+            </div>
+
+            <!-- Contents -->
+            <div class="flex justify-around">
+              <!-- Content -->
+              <div
+                class="bg-green-500 md:w-[200px] w-[80px] md:h-[150px] h-[80px] rounded-lg flex flex-col items-center justify-center"
+              >
+                <p class="text-white text-center md:text-[25px] font-semibold">
+                  tailwind CSS
+                </p>
+              </div>
+              <!-- Content -->
+              <div
+                class="bg-green-500 md:w-[200px] w-[80px] md:h-[150px] h-[80px] rounded-lg flex flex-col items-center justify-center"
+              >
+                <i
+                  class="fa-brands fa-sass md:text-[50px] text-[30px] text-white"
+                ></i>
+                <p class="text-white md:text-[16px] text-[12px] font-semibold">
+                  SASS
+                </p>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="bg-green-500 md:w-[200px] w-[80px] md:h-[150px] h-[80px] rounded-lg flex flex-col items-center justify-center"
+              >
+                <i
+                  class="fa-brands fa-square-js md:text-[50px] text-[30px] text-white"
+                ></i>
+                <p class="text-white md:text-[16px] text-[12px] font-semibold">
+                  JAVASCRIPT
+                </p>
+              </div>
+            </div>
+
+            <!-- Contents -->
+            <div class="flex justify-around">
+              <!-- Content -->
+              <div
+                class="bg-green-500 md:w-[200px] w-[80px] md:h-[150px] h-[80px] rounded-lg flex flex-col items-center justify-center"
+              >
+                <i
+                  class="hidden fa-brands fa-react md:text-[50px] text-[30px] text-white"
+                ></i>
+                <p
+                  class="hidden text-white md:text-[16px] text-[12px] font-semibold"
+                >
+                  REACT
+                </p>
+              </div>
+              <!-- Content -->
+              <div
+                class="bg-green-500 md:w-[200px] w-[80px] md:h-[150px] h-[80px] rounded-lg flex flex-col items-center justify-center"
+              >
+                <p
+                  class="text-white text-center md:text-[25px] font-semibold"
+                ></p>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="bg-green-500 md:w-[200px] w-[80px] md:h-[150px] h-[80px] rounded-lg flex flex-col items-center justify-center"
+              >
+                <i
+                  class="fa-brands fa-github md:text-[50px] text-[30px] text-white"
+                ></i>
+                <p class="text-white md:text-[16px] text-[12px] font-semibold">
+                  GITHUB
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- services start  -->
+
+    <section id="services">
+      <!-- Main div -->
+      <div class="md:mx-[56px] mx-[25px]">
+        <h2 class="md:text-[36px] text-[25px] text-[#22C55E] font-semibold pb-5">
+          Services
+        </h2>
+
+        <!-- First div -->
+         <div class="md:grid md:grid-cols-12">
+          <!-- Personal website -->
+          <div class="md:col-span-6">
+            <h2 class="md:text-[26px] text-[20px] text-[#22C55E] text-center ">
+              Personal portfolio Website
+            </h2>
+            <p class="text-center text-white font-semibold border-b border-[#22C55E] pb-3">TK-6200 Only</p>
+            <div>
+              <ul class="py-5 text-white flex flex-col gap-10">
+                <li class="flex gap-3 md:text-[16px] text-[14px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+                Fully responsive design</li>
+                <li class="flex gap-3 md:text-[16px] text-[14px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+                24/7 Life time support</li>
+                <li class="flex gap-3 md:text-[16px] text-[14px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+                I will biuld page based on your requerments</li>
+                <li class="flex gap-3 md:text-[16px] text-[14px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+                Free customization for first 7 days (Conditions applied)</li>
+              </ul>
+            </div>
+          </div>
+         </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Showcase start -->
+
+    <section class="md:mx-[56px] mx-[25px]">
+      <!-- Main div -->
+       <div class="py-10">
+        <h2 class="md:text-[36px] text-[25px] text-[#22C55E] font-semibold pb-5">
+          Portfolio Showcase
+          <div>
+              <div class="flex gap-10 justify-center  py-5">
+                <span class="w-[400px] md:h-[200px] h-[150px] border-2 border-[#22C55E] rounded-lg overflow-hidden"><img src="img/por.jpg" alt="" class="w-100"></span>
+                <span class="w-[400px] md:h-[200px] h-[150px] border-2 border-[#22C55E] rounded-lg overflow-hidden sm:block hidden"><img src="img/por.jpg" alt="" class="w-100"></span>
+                <span class="w-[400px] md:h-[200px] h-[150px] border-2 border-[#22C55E] rounded-lg overflow-hidden md:block hidden"><img src="img/por.jpg" alt="" class="w-100"></span>
+              </div>
+          </div>
+          
+          <div class="flex justify-center md:pt-5 pt-2">
+            <a href="portfolio.html"><button
+              class="bg-green-500  text-white text-[17px] md:px-3 md:py-2 px-2 py-1 font-semibold rounded-lg me-3 hover:bg-green-600 shadow-lg transition duration-300"
+            >
+              More
+            </button></a>
+          </div>
+        </h2>
+       </div>
+    </section>
+
+    <!-- Footer -->
+     <footer class="bg-black">
+      <div>
+        <p class="text-gray-400 text-center py-2">All rights reserved by @tasinmuhaiminul</p>
+      </div>
+     </footer>
+
+
+     <script src="./js/scroll.js"></script>
+  </body>
+</html>
