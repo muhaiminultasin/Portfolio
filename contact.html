@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font-awsome  -->
     <link
       rel="stylesheet"
@@ -14,62 +14,107 @@
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>TASIN MUHAIMINUL</title>
-</head>
-<body class="bg-gray-600">
+  </head>
+  <body class="bg-gray-600">
     <!-- Header -->
     <header class="bg-black shadow-lg w-full fixed">
-        <nav
-          class="md:mx-[56px] mx-[25px] py-2 flex items-center justify-between"
-        >
-          <!-- logo -->
-          <div>
-            <a href="index.html">
-              <p class="text-green-500 text-[25px]">TSN</p>
-            </a>
-          </div>
-          <!-- list -->
-          <div>
-            <ul
-              class="md:flex gap-10 text-white font-semibold cursor-pointer hidden"
+      <nav
+        class="md:mx-[56px] mx-[25px] py-2 flex items-center justify-between"
+      >
+        <!-- logo -->
+        <div>
+          <a href="index.html">
+            <p class="text-green-500 text-[25px]">TSN</p>
+          </a>
+        </div>
+        <!-- list -->
+        <div>
+          <ul
+            class="md:flex gap-10 text-white font-semibold cursor-pointer hidden"
+          >
+            <a href="index.html"
+              ><li class="hover:text-green-500 transition">Home</li></a
             >
-              <a href="index.html"><li class="hover:text-green-500 transition">Home</li></a>
-              <li class="hover:text-green-500 transition hidden">About</li>
-              <li class="hover:text-green-500 transition hidden">Services</li>
-              <a href="portfolio.html"><li class="hover:text-green-500 transition">Portfolio</li></a>
-              <a href="contact.html"><li class=" text-green-500 hover:text-green-500 transition ">Contact Us</li></a>
-            </ul>
-          </div>
-          <!-- button  -->
-          <div>
-            <button
-              class="md:px-3 md:py-1 px-2 py-1 bg-green-400 hover:bg-green-600 text-white font-semibold rounded transition duration-300 shadow-sm shadow-green-300"
+            <li class="hover:text-green-500 transition hidden">About</li>
+            <li class="hover:text-green-500 transition hidden">Services</li>
+            <a href="portfolio.html"
+              ><li class="hover:text-green-500 transition">Portfolio</li></a
             >
-              Hire me
-            </button>
-          </div>
-        </nav>
+            <a href="contact.html"
+              ><li class="text-green-500 hover:text-green-500 transition">
+                Contact Us
+              </li></a
+            >
+          </ul>
+        </div>
+        <!-- button  -->
+        <div>
+          <button
+            class="md:px-3 md:py-1 px-2 py-1 bg-green-400 hover:bg-green-600 text-white font-semibold rounded transition duration-300 shadow-sm shadow-green-300"
+          >
+            Hire me
+          </button>
+        </div>
+      </nav>
     </header>
     <!-- Contact -->
-     <section class="md:mx-[56px] mx-[25px] md:pt-[70px] pt-[100px]">
-        <h2 class="text-green-500 md:text-center align-start md:text-[46px] text-[22px] font-semibold">
-            Hey, Have a project on your mind?
-        </h2> 
-        <h3 class="text-white md:text-center align-start md:text-[26px] text-[16px] ">Let's share with me for your <span class="text-green-500 font-semibold">digital solution</span>.</h3>
+    <section class="md:mx-[56px] mx-[25px] md:pt-[70px] pt-[100px]">
+      <h2
+        class="text-green-500 md:text-center align-start md:text-[46px] text-[22px] font-semibold"
+      >
+        Hey, Have a project on your mind?
+      </h2>
+      <h3
+        class="text-white md:text-center align-start md:text-[26px] text-[16px]"
+      >
+        Let's share with me for your
+        <span class="text-green-500 font-semibold">digital solution</span>.
+      </h3>
 
-        <div class="md:mx-[250px] mt-10 flex flex-col gap-5">
-            <input type="text" placeholder="Enter your name here" class="w-full text-[18px] text-white bg-transparent outline-none md:px-10 px-5 md:py-4 py-2 border border-green-400 rounded-lg">
-            <input type="email" placeholder="Enter your email here" class="w-full text-[18px] text-white bg-transparent outline-none md:px-10 px-5 md:py-4 py-2 border border-green-400 rounded-lg">
-            <input type="phone" placeholder="Enter your subject here" class="w-full text-[18px] text-white bg-transparent outline-none md:px-10 px-5 md:py-4 py-2 border border-green-400 rounded-lg">
-            <textarea placeholder="Type your Idea here" class="w-full text-[18px] text-white bg-transparent outline-none md:px-10 px-5 md:py-4 py-2 border border-green-400 rounded-lg md:min-h-[100px]" ></textarea>
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="md:mx-[250px] mt-10 flex flex-col gap-5"
+      >
+        <!-- Use the correct name attribute 'access_key' -->
+        <input
+          type="hidden"
+          name="access_key"
+          value="136b384d-a937-4379-a419-abe6b0df4cb0"
+        />
+        <input
+          type="text"
+          placeholder="Enter your name here"
+          class="w-full text-[18px] text-white bg-transparent outline-none md:px-10 px-5 md:py-4 py-2 border border-green-400 rounded-lg"
+          name="name"
+        />
+        <input
+          type="email"
+          placeholder="Enter your email here"
+          class="w-full text-[18px] text-white bg-transparent outline-none md:px-10 px-5 md:py-4 py-2 border border-green-400 rounded-lg"
+          name="email"
+        />
+        <input
+          type="phone"
+          placeholder="Enter your phone number here"
+          class="w-full text-[18px] text-white bg-transparent outline-none md:px-10 px-5 md:py-4 py-2 border border-green-400 rounded-lg"
+          name="phone"
+        />
+        <textarea
+          placeholder="Type your Idea here"
+          class="w-full text-[18px] text-white bg-transparent outline-none md:px-10 px-5 md:py-4 py-2 border border-green-400 rounded-lg md:min-h-[100px]"
+          name="Message"
+        ></textarea>
+        <button
+          type="submit"
+          class="bg-green-500 text-white md:px-3 md:py-2 px-2 py-1 font-semibold rounded-lg me-3 hover:bg-green-600 transition duration-300"
+        >
+          Submit
+        </button>
+      </form>
+    </section>
 
-            <div class="text-center">
-                <button
-              class="bg-green-500 text-white md:px-3 md:py-2 px-2 py-1 font-semibold rounded-lg me-3 hover:bg-green-600 transition duration-300"
-            >
-              Submit
-            </button>
-            </div>
-        </div>
-     </section>
-</body>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/contact.js"></script>
+  </body>
 </html>
