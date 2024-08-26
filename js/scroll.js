@@ -1,17 +1,22 @@
-// About
-const about = document.getElementById("btnAbout");
+// controller is header section
+const controller = document.querySelector("#header-controller")
+
 const secAbout = document.getElementById("about");
-about.addEventListener("click", function (event) {
-  event.preventDefault();
-  secAbout.scrollIntoView({ behavior: "smooth" });
-});
-
-// Services
-
-const servBtn = document.getElementById("btnServices");
 const secServices = document.getElementById("services");
 
-servBtn.addEventListener("click", function (event) {
-  event.preventDefault();
-  secServices.scrollIntoView({ behavior: "smooth" });
+
+controller.addEventListener("click", (e) => {
+  let target = e.target;
+
+  switch(target.id) {
+    case "btnAbout" :
+      secAbout.scrollIntoView({
+        behavior: 'smooth'
+      });
+      break;
+    case "btnServices" :
+      secServices.scrollIntoView({
+        behavior: 'smooth'
+      });
+  };
 });
