@@ -17,7 +17,7 @@ let dataGenerate = () =>  {
     return portfolioContainer.innerHTML = data.map((x) => {
         
         return `<a href="${x.anchor}" target="_blank" class="w-[350px] rounded-lg overflow-hidden "><img src="${x.img}" alt="" class="object-fit"></a>`
-    });
+    }).join(" ");
 };
 
 dataGenerate(data); 
